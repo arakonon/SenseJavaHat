@@ -7,8 +7,8 @@ public class Ball {
     public Ball(){
         nowX = 3; //Ball startet in der mitte (3,3)
         nowY = 3;
-        pastX = 3; //Ball kommt, am Start, von unten
-        pastY = 4;
+        pastX = 2; //Ball kommt, am Start, von unten
+        pastY = 2;
     }
 
     public int woIstBallX(){
