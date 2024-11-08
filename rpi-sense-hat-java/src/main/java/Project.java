@@ -6,6 +6,10 @@ import rpi.sensehat.api.SenseHat;
 public class Project {
 
     public static void main(String[] args) {
+       
+        Ball ball1 = new Ball();
+
+        System.out.println(ball1.getX());
         System.out.println(">>> Create project here <<<");
 
         SenseHat senseHat = new SenseHat();
